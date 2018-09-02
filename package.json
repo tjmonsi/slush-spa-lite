@@ -1,0 +1,43 @@
+{
+  "name": "slush-spa-lite",
+  "description": "Create the spa-lite architecture",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tjmonsi/slush-spa-lite",
+  "author": {
+    "name": "Toni-Jan Keith Monserrat",
+    "email": "tonijanmonserrat@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tjmonsi/slush-spa-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tjmonsi/slush-spa-lite/issues"
+  },
+  "license": "MIT",
+  "main": "slushfile.js",
+  "engines": {
+    "node": ">= 0.10.26",
+    "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-conflict": "^0.1.1",
+    "gulp-git": "^2.5.2",
+    "gulp-install": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.1",
+    "iniparser": "^1.0.5",
+    "inquirer": "^3.3.0",
+    "slush": ">=1.0.0",
+    "underscore.string": "^2.3.3",
+    "uppercamelcase": "^3.0.0"
+  },
+  "keywords": [
+    "slushgenerator"
+  ]
+}
